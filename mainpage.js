@@ -3,13 +3,13 @@ let triviaAPIBtn = $(".triviaAPIBtn");
 let marvelBtn = $(".marvelBtn");
 
 OTDBBtn.click(() => {
-  location.assign("OTDB.html");
+  location.assign("./OTDB_assets/OTDB.html");
 });
 
 triviaAPIBtn.click(() => {
-  location.assign("TriviaAPI.html");
+  location.assign("./TriviaAPI_assets/TriviaAPI.html");
 });
 
 marvelBtn.click(() => {
-  location.assign("marvel.html");
+  location.assign("./marvel_assets/marvel.html");
 });
