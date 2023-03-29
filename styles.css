@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-inline-size: 900px;
+  padding-inline: 2em;
+}
+
+.center {
+  box-sizing: content-box;
+  margin-inline: auto;
+  max-inline-size: 70ch;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.answerContainer {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.characterCard {
+  display: flex;
+  border: 2px solid blue;
+  margin-block: 1em;
+}
+
+.characterIMG {
+  display: block;
+  width: 100%;
+  max-block-size: 10rem;
+  object-fit: fill;
+}
