@@ -1,4 +1,4 @@
-let baseURL = "http://www.omdbapi.com/?";
+let baseURL = "https://www.omdbapi.com/?";
 let APIkey = "apikey=6f5b68";
 
 let OMDBDisplay = $(".OMDBDisplay");
