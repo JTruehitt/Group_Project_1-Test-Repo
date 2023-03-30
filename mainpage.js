@@ -1,6 +1,7 @@
 let OTDBBtn = $(".OTDBBtn");
 let triviaAPIBtn = $(".triviaAPIBtn");
 let marvelBtn = $(".marvelBtn");
+let OMDBBtn = $(".OMDBBtn")
 
 OTDBBtn.click(() => {
   location.assign("./OTDB_assets/OTDB.html");
@@ -12,4 +13,8 @@ triviaAPIBtn.click(() => {
 
 marvelBtn.click(() => {
   location.assign("./marvel_assets/marvel.html");
+});
+
+OMDBBtn.click(() => {
+  location.assign("./OMDB_assets/OMDB.html");
 });
