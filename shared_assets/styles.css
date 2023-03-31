@@ -56,3 +56,7 @@
   max-block-size: 12rem;
   border-radius: 10px;
 }
+
+.gifIMG {
+  object-fit: cover;
+}
