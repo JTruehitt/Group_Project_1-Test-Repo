@@ -11,6 +11,35 @@
     <div class="container center">
       <div class="flex-center">
         <h2 class="text-center">The Trivia API</h2>
+
+        <fieldset class=".category-checkboxes">
+          <input
+            type="checkbox"
+            name="categor"
+            id="categor1"
+            value="any"
+          /><label for="categor1">history</label>
+          <input
+            type="checkbox"
+            name="categor"
+            id="categor2"
+            value="food_and_drink"
+          /><label for="categor2">food</label>
+          <input
+            type="checkbox"
+            name="categor"
+            id="categor3"
+            value="geography"
+          /><label for="categor3">geo</label>
+        </fieldset>
+
+        <select name="diff" id="difficulty">
+          <option value="any" selected>any</option>
+          <option value="easy">easy</option>
+          <option value="medium">med</option>
+          <option value="hard">hard</option>
+        </select>
+
         <button class="startGameBtn">Press Me</button>
         <div class="triviaAPIDisplay"></div>
       </div>
